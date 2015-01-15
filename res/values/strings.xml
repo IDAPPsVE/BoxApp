@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BoxApp</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="log_in">Iniciar Sesion</string>
+    <string name="sing_up">Registrarse</string>
+    
+    <string name="logo1">Caja</string>
+    <string name="Save">Guardar</string>
+    <string name="mail1">Correo electronico</string>
+    <string name="mail2">Repita Correo</string>
+    <string name="id">Cedula</string>
+    <string name="pass1">Contrasena</string>
+    <string name="pass2">Repita Contrasena</string>
+    
+    <string name="IdS">Inicio de Sesion</string>
+    <string name="BOK">Ingresar</string>
+    <string name="title_activity_one1">ONE1</string>
+    
+    <string name="WOD">Trabajo del dia (WOD)</string>
+    <string name="RM">Repeticion Maxima (RM)</string>
+    <string name="RECO">Record de WOD</string>
+    <string name="TI">Modulo del Box</string>
+    
+   	<string name="SElEC">Seleccionar Clase</string>
+	<string name="HD">Horarios disponibles</string>
+
+</resources>

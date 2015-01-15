@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BoxApp</string>
+    <string name="action_settings">Settings</string>
+	
+	<string name="log_in">Log in</string>
+	<string name="sing_up">Sing up</string>
+
+	<string name="logo1">Box</string>
+	<string name="Save">Save</string>
+	
+	<string name="mail1">Email</string>
+	<string name="mail2">Repeat Email</string>
+	<string name="id">I.D</string>
+	<string name="pass1">Password</string>
+	<string name="pass2">Repeat Password</string>
+	
+	 
+	 <string name="IdS">Log In</string>
+	 <string name="BOK">Go</string>
+	
+	<string name="WOD">Work Of Day(WOD)</string>
+    <string name="RM">Max Reps(RM)</string>
+    <string name="RECO">Records</string>
+	<string name="TI">Box Module</string>
+    
+	 
+	 
+</resources>
