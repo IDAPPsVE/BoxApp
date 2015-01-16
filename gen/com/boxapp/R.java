@@ -8,6 +8,9 @@
 package com.boxapp;
 
 public final class R {
+    public static final class array {
+        public static final int HORARIOS=0x7f060000;
+    }
     public static final class attr {
     }
     public static final class dimen {
@@ -31,22 +34,25 @@ public final class R {
         public static final int wod1=0x7f020006;
     }
     public static final class id {
-        public static final int LinearLayout1=0x7f080000;
-        public static final int LinearLayout2=0x7f080005;
-        public static final int action_settings=0x7f08000f;
-        public static final int autoCompleteTextView1=0x7f080007;
-        public static final int button1=0x7f080004;
-        public static final int button2=0x7f08000b;
-        public static final int button3=0x7f08000d;
-        public static final int editText1=0x7f080002;
-        public static final int editText2=0x7f080003;
-        public static final int editText3=0x7f08000e;
-        public static final int editText4=0x7f080006;
-        public static final int editText5=0x7f080008;
-        public static final int editText6=0x7f080009;
-        public static final int editText7=0x7f08000a;
-        public static final int imageView1=0x7f080001;
-        public static final int textView1=0x7f08000c;
+        public static final int LinearLayout1=0x7f090000;
+        public static final int LinearLayout2=0x7f090005;
+        public static final int action_settings=0x7f090012;
+        public static final int button1=0x7f090004;
+        public static final int button2=0x7f090006;
+        public static final int button3=0x7f090008;
+        public static final int editText1=0x7f090002;
+        public static final int editText2=0x7f090003;
+        public static final int editText3=0x7f09000f;
+        public static final int editText4=0x7f090010;
+        public static final int editText5=0x7f090011;
+        public static final int imageView1=0x7f090001;
+        public static final int matriz=0x7f09000a;
+        public static final int spinner1=0x7f090009;
+        public static final int tableRow1=0x7f09000b;
+        public static final int textView1=0x7f090007;
+        public static final int textView2=0x7f09000c;
+        public static final int textView3=0x7f09000d;
+        public static final int textView4=0x7f09000e;
     }
     public static final class layout {
         public static final int activity_acti04=0x7f030000;
@@ -57,20 +63,21 @@ public final class R {
         public static final int vista03=0x7f030005;
     }
     public static final class menu {
-        public static final int acti04=0x7f070000;
-        public static final int datos_u=0x7f070001;
-        public static final int main=0x7f070002;
-        public static final int one1=0x7f070003;
-        public static final int vista04=0x7f070004;
-        public static final int wod=0x7f070005;
+        public static final int acti04=0x7f080000;
+        public static final int datos_u=0x7f080001;
+        public static final int main=0x7f080002;
+        public static final int one1=0x7f080003;
+        public static final int vista04=0x7f080004;
+        public static final int wod=0x7f080005;
     }
     public static final class string {
         public static final int BOK=0x7f05000c;
+        public static final int DINA=0x7f050014;
         public static final int HD=0x7f050013;
         public static final int IdS=0x7f05000b;
         public static final int RECO=0x7f050010;
         public static final int RM=0x7f05000f;
-        public static final int SElEC=0x7f050012;
+        public static final int SEC=0x7f050012;
         public static final int Save=0x7f050005;
         public static final int TI=0x7f050011;
         public static final int WOD=0x7f05000e;
@@ -108,10 +115,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
+        public static final int AppTheme=0x7f070001;
     }
 }

@@ -23,7 +23,35 @@
     <string name="RECO">Record de WOD</string>
     <string name="TI">Modulo del Box</string>
     
-   	<string name="SElEC">Seleccionar Clase</string>
+   	<string name="SEC">Seleccionar Clase</string>
 	<string name="HD">Horarios disponibles</string>
+	<string name="DINA">Boton Dinamico</string>
 
+
+    <string-array name="HORARIOS">
+        
+        <item>Horarios Disponibles</item>
+        
+        <item>06:00 AM Wod</item>
+        <item>07:00 AM Wod</item>
+        <item>08:00 AM Wod</item>
+        <item>09:00 AM Open Box</item>
+        <item>10:00 AM Open Box</item>
+        <item>11:00 AM Open Box</item>
+        <item>12:00 AM Open Box</item>
+        <item>01:00 AM Open Box</item>
+        <item>02:00 PM Fundacion</item>
+        <item>03:00 PM Wod</item>
+        <item>04:00 PM Wod</item>
+        <item>05:00 PM Wod</item>
+    	<item>06:00 PM Wod</item>
+    	<item>07:00 PM Wod</item>
+    	<item>08:00 PM Wod</item>
+    
+    </string-array>
+
+	
+    
+    
+    
 </resources>
