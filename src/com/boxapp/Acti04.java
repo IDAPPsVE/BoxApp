@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 
-public class Acti04 extends Activity {
+public class Acti04 extends IAActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
