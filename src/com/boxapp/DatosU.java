@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class DatosU extends Activity {
+public class DatosU extends IAActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +17,7 @@ public class DatosU extends Activity {
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.datos_u, menu);
+		
 		return true;
 	}
 
