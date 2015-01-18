@@ -8,6 +8,7 @@ import org.json.JSONObject;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.AsyncTask;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -26,6 +27,7 @@ public class WOD extends IAActivity implements OnItemSelectedListener {
 	String pll = "";
 	private Button mConfirm;
 	boolean isConfirmed = false;
+
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -54,10 +56,12 @@ public class WOD extends IAActivity implements OnItemSelectedListener {
 			}
 		});
 
+
 		// Create an ArrayAdapter using the string array and a default spinner
 		// layout
 		ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
 				this, R.array.HORARIOS, R.layout.spinner_item);
+
 
 		// Specify the layout to use when the list of choices appears
 		adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -232,5 +236,4 @@ public class WOD extends IAActivity implements OnItemSelectedListener {
 
 		}
 	}
-
 }

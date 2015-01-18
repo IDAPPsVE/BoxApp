@@ -25,6 +25,7 @@ public class MainActivity extends IAActivity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
+
 				VISTA04(v);
 			}
 		});

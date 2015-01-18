@@ -68,8 +68,7 @@ public class IALoginActivity extends IAActivity {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			JSONObject result = getApi().makeHttpRequest(NetworkMethod.login,
-					json);
+			JSONObject result = getApi().makeHttpRequest(NetworkMethod.login,json);
 			return result;
 		}
 

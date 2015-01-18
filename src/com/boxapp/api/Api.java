@@ -9,8 +9,7 @@ public class Api {
 
 	private static Context mAppContext;
 	private static IANetwork mNetwork;
-	private static final String ENDPOINT = "https://infra-idappsve.c9.io/MaraBox/";
-
+	private static final String ENDPOINT = "https://infra-idappsve-1.c9.io/MaraBox/";
 	// private static final String ENDPOINT = "http://";
 
 	public static Api getInstance() {
@@ -25,7 +24,9 @@ public class Api {
 	}
 
 	public static enum NetworkMethod {
-		login, confirm
+		login,
+		twitter,
+		confirm,
 	}
 
 	public static Api newInstance(Context context) {
@@ -46,6 +47,7 @@ public class Api {
 			uri += "";
 			break;
 		}
+
 		JSONObject result = mNetwork.makeHttpRequest(uri, params);
 		return result;
 	}
